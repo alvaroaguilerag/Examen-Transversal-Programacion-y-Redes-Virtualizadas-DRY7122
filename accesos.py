@@ -10,7 +10,7 @@ db_name = 'accesos.db'
 
 @app.route('/')
 def index():
-    return 'Item 2 Prueba 2'
+    return 'Item 3 Examen Transversal'
 
 @app.route('/signup/v2', methods=['GET', 'POST'])
 def signup_v2():
